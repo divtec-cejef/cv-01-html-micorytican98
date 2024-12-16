@@ -1,27 +1,24 @@
-/* Réinitialisation de base */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Style global du corps */
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.6;
     color: black;
     background-color: white;
-    margin: 10px; /* Отступ от границ экрана */
+    margin: 10px;
 }
 
-/* En-tête */
 header {
     margin-bottom: 20px;
 }
 
 header img {
-    width: 100px; /* Маленькое изображение */
+    width: 100px;
     border-radius: 50%;
     display: block;
     margin: 10px 0;
@@ -36,14 +33,13 @@ header a:hover {
     text-decoration: underline;
 }
 
-/* Menu de navigation */
 .menu {
     list-style: none;
     margin: 10px 0;
 }
 
 .menu li {
-    margin-bottom: 5px; /* Отступы между ссылками */
+    margin-bottom: 5px;
 }
 
 .menu a {
@@ -52,11 +48,10 @@ header a:hover {
     font-weight: bold;
 }
 
-.menu a:hover {
+menu a:hover {
     text-decoration: underline;
 }
 
-/* Contenu principal */
 main {
     margin-top: 20px;
 }
@@ -84,7 +79,6 @@ p {
     margin: 10px 0;
 }
 
-/* Pied de page */
 footer {
     margin-top: 20px;
     font-size: 0.9rem;
