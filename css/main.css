@@ -48,7 +48,7 @@ header a:hover {
     font-weight: bold;
 }
 
-menu a:hover {
+.menu a:hover {
     text-decoration: underline;
 }
 
@@ -65,35 +65,30 @@ h2 {
     font-size: 1.5rem;
     margin: 20px 0 10px 0;
     color: black;
+    transition: color 0.5s ease;
 }
 
 h2:hover {
-    color:white;
-    text-decoration:white;
+    color: white;
+    transition: color 0.5s ease;
 }
 
-ul {
-    margin: 10px 0 10px 20px;
+h2 {
+    transition: color 0.5s ease;
 }
 
-li {
-    margin-bottom: 5px;
+h2:hover {
+    color: white;
 }
 
-p {
-    margin: 10px 0;
+h2 {
+    transition: color 0.5s ease;
 }
 
-footer {
-    margin-top: 20px;
-    font-size: 0.9rem;
+h2 {
+    transition: color 0.5s ease;
 }
 
-footer a {
-    color: blue;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
+h2:hover {
+    color: white;
 }
