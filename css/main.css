@@ -56,25 +56,18 @@ main {
     margin-top: 20px;
 }
 
-h1 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-h2 {
-    font-size: 1.5rem;
-    margin: 20px 0 10px 0;
+h1, h2, h3, h4, h5, h6, p, a, li {
     color: black;
-    transition: color 2s ease, color 7s ease 7s;
+    transition: color 2s ease;
 }
 
-p, a, li, h1, h2, h3, h4, h5, h6 {
-    color: black;
-    transition: color 2s ease, color 7s ease 7s;
-}
-
-p:hover, a:hover, li:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, a:hover, li:hover {
     color: white;
+    transition: color 2s ease;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    transition: color 2s ease, color 7s ease 3s;
 }
 
 footer {
