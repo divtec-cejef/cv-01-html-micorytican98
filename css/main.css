@@ -65,30 +65,28 @@ h2 {
     font-size: 1.5rem;
     margin: 20px 0 10px 0;
     color: black;
-    transition: color 0.5s ease;
+    transition: color 2s ease, color 7s ease 7s;
 }
 
-h2:hover {
-    color: white;
-    transition: color 0.5s ease;
+p, a, li, h1, h2, h3, h4, h5, h6 {
+    color: black;
+    transition: color 2s ease, color 7s ease 7s;
 }
 
-h2 {
-    transition: color 0.5s ease;
-}
-
-h2:hover {
+p:hover, a:hover, li:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover {
     color: white;
 }
 
-h2 {
-    transition: color 0.5s ease;
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
 }
 
-h2 {
-    transition: color 0.5s ease;
+footer a {
+    color: blue;
+    text-decoration: none;
 }
 
-h2:hover {
-    color: white;
+footer a:hover {
+    text-decoration: underline;
 }
