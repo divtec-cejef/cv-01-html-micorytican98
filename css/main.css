@@ -67,6 +67,10 @@ h2 {
     color: black;
 }
 
+h2 :hover {
+    color:white;
+}
+
 ul {
     margin: 10px 0 10px 20px;
 }
