@@ -27,10 +27,11 @@ header img {
 header a {
     color: blue;
     text-decoration: none;
+    transition: color 0.5s ease, color 7s ease 3s;
 }
 
 header a:hover {
-    text-decoration: underline;
+    color: white;
 }
 
 .menu {
@@ -46,10 +47,11 @@ header a:hover {
     color: blue;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.5s ease, color 7s ease 3s;
 }
 
 .menu a:hover {
-    text-decoration: underline;
+    color: white;
 }
 
 main {
@@ -58,16 +60,11 @@ main {
 
 h1, h2, h3, h4, h5, h6, p, a, li {
     color: black;
-    transition: color 2s ease;
+    transition: color 0.5s ease, color 7s ease 3s;
 }
 
 h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, p:hover, a:hover, li:hover {
     color: white;
-    transition: color 2s ease;
-}
-
-h1, h2, h3, h4, h5, h6, p, a, li {
-    transition: color 2s ease, color 7s ease 3s;
 }
 
 footer {
@@ -78,8 +75,9 @@ footer {
 footer a {
     color: blue;
     text-decoration: none;
+    transition: color 0.5s ease, color 7s ease 3s;
 }
 
 footer a:hover {
-    text-decoration: underline;
+    color: white;
 }
