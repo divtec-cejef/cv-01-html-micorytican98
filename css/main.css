@@ -43,18 +43,6 @@ header img {
     margin: 0 auto 10px auto;
 }
 
-header h1 {
-    font-family: 'Merriweather', serif; 
-    font-size: 2.5rem; 
-    font-weight: 700; 
-    color: #C8C8C8; 
-    text-align: center; 
-    letter-spacing: 2px; 
-    text-transform: uppercase; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-    margin: 20px 0; 
-}
-
 header p {
     text-align: center;
     color: #C8C8C8;
@@ -66,6 +54,18 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Merriweather', serif; 
+    font-size: 2.5rem; 
+    font-weight: 700; 
+    color: #C8C8C8; 
+    text-align: center; 
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    margin: 20px 0; 
 }
 
 section {
