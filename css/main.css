@@ -99,11 +99,11 @@ footer {
 }
 
 .site-footer {
-    background-color: #263238; 
+    background: linear-gradient(90deg, #263238, #7896AA);
     color: #C8C8C8; 
     text-align: center;
     padding: 20px 0;
-    border-top: 1px solid #374146; 
+    border-top: 1px solid #B4B4B4; 
     font-family: 'Merriweather', serif;
 }
 
