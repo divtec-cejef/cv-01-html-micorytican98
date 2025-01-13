@@ -141,14 +141,6 @@ section ul li {
     text-decoration: none; 
 }
 
-footer {
-    text-align: center;
-    padding: 10px;
-    background: linear-gradient(to bottom, #dcdcdc, #263238);
-    border-top: 2px solid #ddd;
-    margin-top: 20px;
-}
-
 .site-footer {
     background: linear-gradient(45deg, #263238, #374146); 
     color: #C8C8C8; 
