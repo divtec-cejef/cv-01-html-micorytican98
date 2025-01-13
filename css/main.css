@@ -91,6 +91,13 @@ section ul li {
     color: #DCDCDC;
 }
 
+.icon {
+    width: 1em; 
+    height: auto; 
+    vertical-align: middle; 
+    margin-left: 4px; 
+}
+
 .highlighted-link {
     text-decoration: none; 
     font-family: 'Merriweather', serif; 
