@@ -147,7 +147,8 @@ footer {
 .site-footer p {
     margin: 0;
     font-size: 14px;
-    color: #B4C8DC; 
+    font-weight: bold; 
+    color: #C8C8C8; 
 }
 
 .site-footer a {
