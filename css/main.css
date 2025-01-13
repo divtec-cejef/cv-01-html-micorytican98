@@ -90,12 +90,13 @@ section ul li {
     font-size: 1rem;
     color: #DCDCDC;
 }
-
+/
 .highlighted-link {
-    text-decoration: none; 
-    font-family: 'Merriweather', serif; 
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
     font-size: inherit; 
-    color: #C8C8C8; 
+    font-weight: bold; 
+    color: #E6E6E6;
     transition: color 0.3s ease, transform 0.2s ease; 
 }
 
