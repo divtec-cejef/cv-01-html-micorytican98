@@ -92,10 +92,15 @@ section ul li {
 }
 
 .icon {
-    width: 1em; 
+    width: 1.2em; 
     height: auto; 
     vertical-align: middle; 
     margin-left: 4px; 
+    transition: transform 0.3s ease; 
+}
+
+.icon:hover {
+    transform: scale(1.1); 
 }
 
 .highlighted-link {
