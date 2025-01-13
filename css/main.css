@@ -28,7 +28,6 @@ body {
     padding: 0;
 }
 
-
 header {
     text-align: center;
     padding: 20px;
@@ -107,7 +106,6 @@ section ul li {
 .icon:hover {
     transform: scale(1.1); 
 }
-
 
 .highlighted-link {
     text-decoration: none; 
