@@ -98,8 +98,7 @@ section ul li {
 .icon {
     width: 1.2em; 
     height: auto; 
-    vertical-align: middle; 
-    margin-left: 0.1em; 
+    vertical-align: middle;  
     transition: transform 0.3s ease; 
 }
 
