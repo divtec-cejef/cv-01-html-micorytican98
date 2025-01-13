@@ -98,11 +98,18 @@ footer {
     margin-top: 20px;
 }
 
-footer a {
-    color: #007BFF;
-    text-decoration: none;
+.site-footer {
+    background-color: #263238; 
+    color: #C8C8C8; 
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #374146; 
+    font-family: 'Merriweather', serif;
 }
 
-footer a:hover {
-    text-decoration: underline;
+.site-footer p {
+    margin: 0; 
+    font-size: 14px;
+    color: #C8C8C8;
 }
+
