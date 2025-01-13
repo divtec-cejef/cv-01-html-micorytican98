@@ -91,6 +91,21 @@ section ul li {
     color: #E6E6E6;
 }
 
+.highlighted-link {
+    text-decoration: none; 
+    font-family: 'Merriweather', serif; 
+    font-size: inherit; 
+    color: #263238; 
+    transition: color 0.3s ease, transform 0.2s ease; 
+}
+
+.highlighted-link:hover {
+    color: #B4C8DC; 
+    text-decoration: underline; 
+    transform: scale(1.05); 
+}
+
+
 footer {
     text-align: center;
     padding: 10px;
