@@ -57,7 +57,7 @@ section {
 section h2 {
     text-align: center;
     font-size: 1.5rem;
-    color: #DCDCDC;
+    color: #E6E6E6;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
     margin-bottom: 10px;
@@ -73,7 +73,7 @@ section ul li {
     text-align: center;
     margin-bottom: 10px;
     font-size: 1rem;
-    color: #DCDCDC;
+    color: #E6E6E6;
 }
 
 footer {
