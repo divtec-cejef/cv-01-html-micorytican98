@@ -8,9 +8,14 @@
     text-decoration: none; 
     font-family: 'Merriweather', serif; 
     font-size: 18px; 
-    color: #FF5733;
+    color: #263238;
     transition: color 0.3s ease, transform 0.2s ease; 
 }
+
+.menu a:hover {
+    color: #7896AA; 
+    transform: scale(1.1); 
+    text-decoration: underline; 
 
 body {
     font-family: 'Merriweather', serif;
