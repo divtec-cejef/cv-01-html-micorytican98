@@ -155,7 +155,8 @@ footer {
     text-decoration: none; 
     font-family: 'Merriweather', serif; 
     font-size: 18px; 
-    color: #263238;
+    font-weight: bold; 
+    color: #C8C8C8; 
     transition: color 0.3s ease, transform 0.2s ease; 
 }
 
