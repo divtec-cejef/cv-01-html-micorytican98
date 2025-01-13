@@ -90,20 +90,24 @@ section ul li {
     font-size: 1rem;
     color: #DCDCDC;
 }
-/
+
 .highlighted-link {
-    text-decoration: none;
-    font-family: 'Merriweather', serif;
+    text-decoration: none; 
+    font-family: 'Merriweather', serif; 
     font-size: inherit; 
     font-weight: bold; 
-    color: #E6E6E6;
+    color: #C8C8C8; 
     transition: color 0.3s ease, transform 0.2s ease; 
 }
 
 .highlighted-link:hover {
     color: #B4C8DC; 
     text-decoration: underline; 
-    transform: scale(1.05);
+}
+
+.highlighted-link:visited {
+    color: #C8C8C8; 
+    text-decoration: none; 
 }
 
 footer {
