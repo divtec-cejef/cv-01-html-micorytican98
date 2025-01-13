@@ -114,3 +114,16 @@ footer {
     color: #B4C8DC; 
 }
 
+.site-footer a {
+    text-decoration: none; 
+    font-family: 'Merriweather', serif; 
+    font-size: 18px; 
+    color: #263238;
+    transition: color 0.3s ease, transform 0.2s ease; 
+}
+
+.site-footer a:hover {
+    color: #B4C8DC;
+    text-decoration: underline;
+    transform: scale(1.05); 
+}
